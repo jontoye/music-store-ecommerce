@@ -4,7 +4,7 @@ import { bannerImgs } from '../../data';
 
 const Banner = () => {
   return (
-    <div className='max-w-screen-lg mx-auto'>
+    <div>
       <Slider
         dots
         infinite

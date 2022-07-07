@@ -24,8 +24,10 @@ export const SliderCard = ({ img }: Props) => {
         </p>
       </div>
       <div className='w-96 flex justify-evenly'>
-        <Button primary>Shop Now</Button>
-        <Button>View Items</Button>
+        <Button href='/shop' primary>
+          Shop Now
+        </Button>
+        <Button href='/shop'>View Items</Button>
       </div>
     </div>
   );

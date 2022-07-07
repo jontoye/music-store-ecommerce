@@ -1,4 +1,4 @@
-import { NavLink, ImgUrl } from '../types';
+import { NavLink, ImgUrl, Category } from '../types';
 
 export const menu: NavLink[] = [
   {
