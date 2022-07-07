@@ -3,7 +3,7 @@ import { faCartShopping, faPlane, faUser } from '@fortawesome/free-solid-svg-ico
 
 const TopPanel = () => {
   return (
-    <div className='text-xs bg-dark text-light h-9'>
+    <div className='text-xs bg-dark text-light h-9 hidden sm:block'>
       <div className='flex justify-between max-w-screen-lg px-5 lg:px-0 mx-auto h-full'>
         <div className='flex items-center gap-2'>
           <FontAwesomeIcon icon={faPlane} color='red' transform={{ rotate: -135 }} />

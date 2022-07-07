@@ -3,6 +3,10 @@ module.exports = {
   content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        // eslint-disable-next-line quotes
+        'libre-baskerville': ["'Libre Baskerville'", 'serif'],
+      },
       colors: {
         red: '#e21818',
         dark: '#1a1c1e',
@@ -41,7 +45,7 @@ module.exports = {
     },
     screens: {
       xs: '480px',
-      sm: '768px',
+      sm: '800px',
       md: '1024px',
       lg: '1200px',
       xl: '1440px',

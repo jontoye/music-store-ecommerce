@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header>
       <TopPanel />
-      <nav className='flex justify-between max-w-screen-lg mx-auto p-3'>
+      <nav className=' justify-between max-w-screen-lg mx-auto p-3 hidden sm:flex'>
         <Link href='/'>
           <a>
             <Image src={Logo} width={190} objectFit='contain' />

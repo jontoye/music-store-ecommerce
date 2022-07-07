@@ -1,4 +1,4 @@
-import { NavLink } from '../types';
+import { NavLink, ImgUrl } from '../types';
 
 export const menu: NavLink[] = [
   {
@@ -30,5 +30,20 @@ export const menu: NavLink[] = [
   },
   {
     title: 'Search',
+  },
+];
+
+export const bannerImgs: ImgUrl[] = [
+  {
+    id: 1,
+    url: 'https://i.imgur.com/G4IB0wn.jpg',
+  },
+  {
+    id: 2,
+    url: 'https://i.imgur.com/fPArVOS.jpg',
+  },
+  {
+    id: 3,
+    url: 'https://i.imgur.com/30lG1RP.jpg',
   },
 ];
