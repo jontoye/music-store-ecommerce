@@ -47,3 +47,46 @@ export const bannerImgs: ImgUrl[] = [
     url: 'https://i.imgur.com/30lG1RP.jpg',
   },
 ];
+
+export const categories: Category[] = [
+  {
+    name: 'Accessories',
+    image: 'https://i.imgur.com/i5d6Yyo.jpg',
+    slug: 'accessories',
+  },
+  {
+    name: 'Drums & Percussion',
+    image: 'https://i.imgur.com/MzFjjTO.jpg',
+    slug: 'drums-percussion',
+  },
+  {
+    name: 'Guitars',
+    image: 'https://i.imgur.com/vgTmpDX.jpg',
+    slug: 'guitars',
+  },
+  {
+    name: 'Keyboards & Pianos',
+    image: 'https://i.imgur.com/DbPPKqg.jpg',
+    slug: 'keyboards-pianos',
+  },
+  {
+    name: 'Band & Orchestra',
+    image: 'https://i.imgur.com/b75yHi1.jpg',
+    slug: 'band-orchestra',
+  },
+  {
+    name: 'DJ & Karaoke',
+    image: 'https://i.imgur.com/juQmM9k.jpg',
+    slug: 'dj-karaoke',
+  },
+  {
+    name: 'Bass Guitars',
+    image: 'https://i.imgur.com/PZCPUPC.jpg',
+    slug: 'bass-guitars',
+  },
+  {
+    name: 'Recording',
+    image: 'https://i.imgur.com/D3PdJLY.jpg',
+    slug: 'recording',
+  },
+];

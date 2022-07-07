@@ -9,7 +9,7 @@ export type ImgUrl = {
 };
 
 export type Category = {
-  id: number;
   name: string;
-  img: string;
+  image: string;
+  slug: string;
 };
